@@ -7,7 +7,7 @@ function App() {
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // Use backend URL from configuration
+  // Use backend URL from configurations
   const { backendUrl } = config;
 
   const handleClick = async () => {
